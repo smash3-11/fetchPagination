@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+    <style>
+        .container {
+            transition: .5s ease all;
+        }
+
+        .delete-anim {
+            scale: 0.1;
+            opacity: 0;
+            width: 0px !important;
+            margin-right: -25px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Todo List</h1>
+    <form>
+        <input type="text" name="task" placeholder="Buy model's">
+        <button>Add</button>
+    </form>
+
+    <div class="container"></div>
+    <div class="pagination"></div>
+
+
+    <script src="pagination.js"></script>
+    <script src="./java.js"></script>
+</body>
+
+</html>
